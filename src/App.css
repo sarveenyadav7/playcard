@@ -2,20 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +13,63 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  width: 23%;
+  height: auto;
+  float: left;
+  border: 2px solid white;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1.6px 1.6px 1.6px rgba(255, 255, 255, 0.4);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-card{
+  width: 100%;
+  height: 70px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.dummy-images{
+  width: 24%;
+  height: 50px;
+  float: left;
+  border-radius: 100%;
+  background-image: url('./Images/dummy.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h5{
+  height: 60px;
+  color: black;
+}
+p{
+  font-size: 10px;
+  height: 2px;
+  color: black;
+}
+.info{
+  font-size: 8px;
+  padding: 20px;
+  color: black;
+}
+.contact-icons{
+  width: 100%;
+  float: left;
+  border: 1px solid white;
+}
+.icons{
+  width: 20%;
+  height: 20px;
+  float: left;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons i{
+  color: #DD1618;
+  font-size: 10px;
 }
