@@ -14,11 +14,11 @@
 }
 
 .card{
-  width: 23%;
+  width: 200px;
   height: auto;
   float: left;
   border: 2px solid white;
-  padding: 20px;
+  padding: 30px;
   background-color: white;
   box-shadow: 0 1.6px 1.6px 1.6px rgba(255, 255, 255, 0.4);
 }
@@ -32,8 +32,8 @@
   margin-bottom: 16px;
 }
 .dummy-images{
-  width: 24%;
-  height: 50px;
+  width: 34%;
+  height: 70px;
   float: left;
   border-radius: 100%;
   background-image: url('./Images/dummy.jpeg');
@@ -42,18 +42,19 @@
   background-size: cover;
 }
 h5{
-  height: 60px;
+  height: 50px;
   color: black;
 }
 p{
   font-size: 10px;
-  height: 2px;
+  height: 10px;
   color: black;
 }
 .info{
   font-size: 8px;
-  padding: 20px;
+  padding: 4px;
   color: black;
+  text-align: center;
 }
 .contact-icons{
   width: 100%;
